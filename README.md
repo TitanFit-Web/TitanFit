@@ -1,13 +1,11 @@
-# TitanFit
-My personal training business website
 import React from "react";
 
 export default function PersonalTrainingWebsite() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-zinc-900 to-black text-red-600 font-sans">
+    <div className="min-h-screen bg-gradient-to-b from-black via-zinc-900 to-black text-red-600 font-sans bg-pattern">
       <header className="bg-gradient-to-r from-red-800 to-red-600 text-white p-10 shadow-2xl border-b-4 border-red-900">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-5xl font-extrabold tracking-wide mb-2">Hamed's Personal Training</h1>
+          <h1 className="text-5xl font-extrabold tracking-wide mb-2">TitanFit</h1>
           <p className="text-xl text-red-200 italic">Empowering your fitness journey, one session at a time.</p>
         </div>
       </header>
@@ -109,7 +107,7 @@ export default function PersonalTrainingWebsite() {
       </main>
 
       <footer className="bg-gradient-to-r from-red-900 to-red-800 text-center py-6 text-sm text-red-200 border-t border-red-700">
-        &copy; {new Date().getFullYear()} Hamed's Personal Training. All rights reserved.
+        &copy; {new Date().getFullYear()} TitanFit. All rights reserved.
       </footer>
     </div>
   );
